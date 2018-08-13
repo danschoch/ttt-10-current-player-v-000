@@ -3,9 +3,9 @@ def turn_count(board)
   board.each do |player|
     if player = "X" || player = "O"
       counter += 1
-      return "Number of turns played: #{counter}"
+      return counter
     else
-      return "Number of turns played: #{counter}"
+      return counter
     end
   end  
 end
